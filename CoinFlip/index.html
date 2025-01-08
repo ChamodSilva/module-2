@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coin Flip</title>
+        
+        <!--Referencing style sheet within the folder-->
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <div class="container">
+            <h1>Count</h1>
+        </div>
+        <div class="container">
+            <div class="box" id="box1">
+                <h1 id="heading1">Heads</h1>
+                <img src="/CoinFlip/imgs/head.png" alt="Head side of coin.">
+            </div>
+            <div class="box" id="box2">
+                <h1 id="heading1">Tails</h1>
+                <img src="/CoinFlip/imgs/tail.png" alt="Tail side of coin.">
+            </div>
+        </div>
+        <div class="container">
+            <div class="box" id="box3">
+                <button onclick="flipCoin()" id="btnCoinFlip">Flip Coin!</button>
+            </div>
+        </div>
+        
+        <!--Referencing script.js within the folder-->
+        <script src="script.js"></script>
+    </body>
+</html>
